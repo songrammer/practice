@@ -1,10 +1,10 @@
 {
   "name": "account_mongo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +14,10 @@
     "errorhandler": "1.5.1",
     "express": "4.17.1",
     "mongodb": "3.5.9",
+    "mongoose": "5.9.20",
+    "mongoui": "4.2.1",
     "morgan": "1.10.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }

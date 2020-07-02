@@ -10,7 +10,7 @@ app = express();
 app.use(logger('dev'))
 app.use(bodyParser.json())
 
-
+갑자
 
 mongodb.MongoClient.connect(url, (error, database) => {
 
